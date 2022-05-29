@@ -1,0 +1,250 @@
+.App {
+  background-color: #fffefe;
+  min-height: 100vh;
+}
+
+input, select {
+  height: 40px;
+  width: 100%;
+  color: #2A292A !important;
+  font-size: 16px !important;
+  border-color: #E4E4E4 !important;
+  background-color: #fff !important;
+  border-radius: 4px !important;
+}
+
+.tabMenu {
+  height: 48px;
+  background-color: #34495E;
+  width: '100%';
+}
+
+.tabMenu .tabButton {
+  height: 48px;
+  background-color: inherit;
+  color: #fff;
+  border: none;
+  min-width: 120px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.tabMenu .tabDetails {
+  padding: 0px 10px;
+  background-color: inherit;
+  color: #fff;
+}
+
+.alignJustifyCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.alignCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDiv .subTab {
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.mainDiv .tableDiv {
+  padding: 0px 15px;
+}
+
+.mainData {
+  padding: 0px 15px;
+}
+
+.tableTabMenu {
+  width: '100%';
+}
+
+.tableTabMenu .tabButton {
+  height: 48px;
+  background-color: inherit;
+  color: #34495E;
+  border: none;
+  min-width: 120px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.menuCard {
+  background-color: #fff;
+  padding: 15px 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuCard h6 {
+  color: #2A292A;
+  font-size: 20px;
+}
+
+.menuCard span {
+  color: #8894A0;
+  font-size: 14px;
+}
+
+.detailsBox {
+  padding: 15px 25px;
+  min-height: 70vh;
+}
+
+.detailsBox span {
+  color: #34495E;
+  font-size: 14px;
+}
+
+.detailsBox .divCard {
+  background-color: #fff;
+  border: 1px solid #E4E4E4;
+  border-radius: 4px 4px 0px 0px;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 24px;
+}
+
+.detailsBox .dataHeader {
+  background-color: #E4E4E4;
+  height: 40px;
+}
+
+.detailsBox .dataHeader span {
+  color: #34495E;
+  font-weight: bold;
+  margin-left: 24px;
+}
+
+.btnBox {
+  border-top: 1px solid #E5E5E5;
+  padding: 15px 25px;
+}
+
+.prviewBox .prviewData {
+  background: #FFFFFF;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.prviewBox h5 {
+  color: #34495E;
+}
+
+.prviewBox p {
+  text-align: center;
+  color: #17A85F;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.prviewBox span {
+  color: #8894A0;
+  font-size: 14px;
+}
+
+.prviewBox .customBtn {
+  height: 45px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #66332B;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prviewBox .customBtn span {
+  color: #66332B;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.prviewBox .billDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4px;
+}
+
+.prviewBox .billinfDetails span {
+  color: #34495E;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prviewBox .billinfDetails p {
+  color: #2A292A;
+  font-size: 16px;
+  text-align: left;
+  line-height: 16px;
+}
+
+.prviewBox .billinfDetails h6 {
+  color: #2A292A;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.prviewBox .billingAddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rightBorder {
+  border-right: 1px solid #979797;
+}
+
+.smallAlignCenterNetPrice {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .rightBorder {
+    border-right: none;
+    border-bottom: 1px solid #979797;
+  }
+  .smallAlignCenter {
+    text-align: center;
+  }
+  .smallAlignCenterNetPrice {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=App.css.map */
